@@ -18,6 +18,7 @@ const Header = () => {
         rounded-none border border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg 
         shadow-black/[0.03] backdrop-blur-[0.5rem]
         sm:top-6 sm:h-[3.25rem] sm:w-[36rem] sm:rounded-full
+        dark:bg-gray-950 dark:border-black/40 dark:bg-opacity-75
         "
         initial={{ y: -100, x: "-50%", opacity: 0 }}
         animate={{ y: 0, x: "-50%", opacity: 1 }}
@@ -39,7 +40,8 @@ const Header = () => {
                 href={link.hash}
                 className={`w-full flex items-center 
                 justify-center px-3 py-3 hover:text-gray-950 transition
-                ${activeSection === link.name ? "text-gray-950" : ""}
+                dark:text-gray-500 dark:hover:text-gray-300
+                ${activeSection === link.name ? "text-gray-950 dark:text-gray-200" : ""}
                 `}
                 onClick={() => {
                   setActiveSection(link.name);
@@ -49,7 +51,7 @@ const Header = () => {
                 {link.name}
                 {activeSection === link.name && (
                   <motion.span
-                    className="bg-gray-100 rounded-full absolute inset-0 -z-10"
+                    className="bg-gray-100 dark:bg-gray-800 rounded-full absolute inset-0 -z-10"
                     layoutId="activeSection"
                     transition={{
                       type: "spring",
