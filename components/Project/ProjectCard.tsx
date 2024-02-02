@@ -63,7 +63,7 @@ const ProjectCard = ({
           src={imageUrl}
           alt={"Project worked on"}
           quality={90}
-          className="absolute top-8 -right-40  w-[28.25rem] rounded-t-lg shadow-2xl
+          className="absolute hidden top-8 -right-40  w-[28.25rem] rounded-t-lg shadow-2xl
       trasnsition
       group-hover:scale-[1.04]
       group-hover:-translate-x-3
