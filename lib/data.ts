@@ -63,7 +63,7 @@ export const projectsData = [
   {
     title: "GPP food Donation",
     description:
-      "Food donation platform. I was the front-end developer. It has features like filtering, sorting, pagination ,Create donation , accept donation and manage different dashboard for different type of users. ",
+      "Created a food donation platform with user-specific dashboards, filtering, sorting, pagination, and donation management as the front-end developer.",
     tags: ["React", "TypeScript", "Tailwind", "Redux","firebase"],
     imageUrl: rmtdevImg,
   },
