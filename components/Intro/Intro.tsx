@@ -65,10 +65,12 @@ const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Parminder.</span> I'm a{" "}
-        <span className="font-bold">mern stack developer</span> with{" "}
-        <span className="font-bold">2.5 years</span> of experience. I enjoy
+        <span className="font-bold">experienced software developer</span> with{" "}
+        <span className="font-bold">nearly three years</span> of expertise in React.js and Node.js. I enjoy
         building <span className="italic">sites & apps</span>. My focus is{" "}
         <span className="underline">React (Next.js)</span>.
+         I have successfully managed a team of six and trained three co-workers.
+         I am seeking a Software Engineer position at a dynamic and growing company where I can maximize my skills and contribute to its success.
       </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
