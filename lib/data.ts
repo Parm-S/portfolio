@@ -34,18 +34,18 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
- {
+{
     title: "Software Developer",
     location: "Gurugram, Haryana, India",
     description: `
-      Futurionic (Sep 2022 - Present)
-      - Frontend Development: Experienced in React.js and TypeScript with a focus on functional components. Competent in JavaScript (ECMAScript), Axios, routing, NPM, local storage, and styles. Developed a custom reusable React component library.
-      - Backend Development: Skilled in Express.js, Node.js, and Sequelize for server-side development. Experienced with databases like PostgreSQL and MongoDB.
-      - React Concepts: Familiar with Context API, navigation, hooks, Redux, third-party API integrations, and other React concepts.
-      - Version Control: Proficient in using Git Bash and GitHub Desktop.
-      - Project Development: Designed and developed a range of client and in-house applications, streamlining internal processes and enhancing team productivity.
-      - Team Management: Effectively managed a team of 6, ensuring project goals were met on schedule and within scope. Provided training to 3 employees, fostering skill growth and professional development in React.js and Node.js.
-      - Client Communication: Acted as a point of contact for multiple clients, facilitating clear and open communication, understanding client requirements, and managing expectations.
+      Futurionic (Sep 2022 - Present)\n
+      - Frontend Development: Experienced in React.js and TypeScript with a focus on functional components. Competent in JavaScript (ECMAScript), Axios, routing, NPM, local storage, and styles. Developed a custom reusable React component library.\n
+      - Backend Development: Skilled in Express.js, Node.js, and Sequelize for server-side development. Experienced with databases like PostgreSQL and MongoDB.\n
+      - React Concepts: Familiar with Context API, navigation, hooks, Redux, third-party API integrations, and other React concepts.\n
+      - Version Control: Proficient in using Git Bash and GitHub Desktop.\n
+      - Project Development: Designed and developed a range of client and in-house applications, streamlining internal processes and enhancing team productivity.\n
+      - Team Management: Effectively managed a team of 6, ensuring project goals were met on schedule and within scope. Provided training to 3 employees, fostering skill growth and professional development in React.js and Node.js.\n
+      - Client Communication: Acted as a point of contact for multiple clients, facilitating clear and open communication, understanding client requirements, and managing expectations.\n
       - Technical Leadership: Conducted technical interviews to assess candidates and build a skilled team, contributing to overall company growth. Actively participated in code reviews, ensuring code quality, best practices, and knowledge sharing.
     `,
     icon: React.createElement(CgWorkAlt),
@@ -55,14 +55,14 @@ export const experiencesData = [
     title: "Associate Software Engineer",
     location: "Agra, Uttar Pradesh, India",
     description: `
-      Iedaas (Aug 2021 - Sep 2022)
-      - Web Design: Worked on web design, including HTML, JavaScript, and CSS.
-      - Frontend Development: Hands-on experience with React.js and TypeScript, with a solid understanding of functional components.
-      - Backend Development: Experience with Spring Boot, MVC, Hibernate, Express.js, and Node.js.
-      - Database Management: Good understanding of working with different databases, such as MySQL and MongoDB.
-      - React Concepts: Familiar with Context API, navigation, hooks, and other React concepts.
-      - JavaScript Proficiency: Proficient in JavaScript (ECMAScript), Axios, routing, NPM, local storage, and stylesheets.
-      - Component Library: Created a custom reusable React components library.
+      Iedaas (Aug 2021 - Sep 2022)\n
+      - Web Design: Worked on web design, including HTML, JavaScript, and CSS.\n
+      - Frontend Development: Hands-on experience with React.js and TypeScript, with a solid understanding of functional components.\n
+      - Backend Development: Experience with Spring Boot, MVC, Hibernate, Express.js, and Node.js.\n
+      - Database Management: Good understanding of working with different databases, such as MySQL and MongoDB.\n
+      - React Concepts: Familiar with Context API, navigation, hooks, and other React concepts.\n
+      - JavaScript Proficiency: Proficient in JavaScript (ECMAScript), Axios, routing, NPM, local storage, and stylesheets.\n
+      - Component Library: Created a custom reusable React components library.\n
       - Testing: Hands-on experience writing unit test cases using Jest and Mockito.
     `,
     icon: React.createElement(LuGraduationCap),
